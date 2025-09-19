@@ -1,0 +1,83 @@
+body {
+    background-image: url(/images/background-1.jpg) ;
+    background-repeat: no-repeat;   /* stop repeating */
+    background-size: cover;         /* make it cover whole screen */
+    background-position: center;    /* center it */
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-container {
+    background: rgba(255,255,255,0.2);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 25rem;
+    backdrop-filter: blur(10px); /* Blur effect */
+      -webkit-backdrop-filter: blur(10px); /* Safari support */
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      color: white;
+    
+}
+
+    .login-container h2 {
+        
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .userName{
+        background-color: rgb(226, 226, 226);
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        border:none;
+        border-bottom:1px solid #424242 ;
+    }
+    .userName:focus{
+        top: -20px;
+        left: 0;
+        border: none;
+        outline: none;
+        border-bottom:1px solid #424242 ;
+        
+
+    }
+    input[type="checkbox"],
+    label {
+        display: inline-block; 
+        vertical-align: middle;
+    }
+    .pwd-text{
+        font-weight: 500;
+        font-size: 11px;
+    }
+    .btn-div{
+        margin-top: 20px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .btn{
+        width: 150px;
+        padding: 0.7rem;
+        background: #0080e9;
+        color: white;
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .btn:hover{
+        background-color: #46a7f7;
+    }
