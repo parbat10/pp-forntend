@@ -8,7 +8,7 @@ function login(event) {
    let pwd = inputPwd.value;
 
    if( userName === "Admin@123" && pwd=== "pwd123"){
-    window.location.href = "/dashboard.html";
+    window.location.href = "./dashboard.html";
 
    }else{
     alert("wrong username or password. please try again");
